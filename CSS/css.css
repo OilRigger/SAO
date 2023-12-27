@@ -1,0 +1,60 @@
+@font-face {
+    font-family: saoui-regular;
+    src: url('../fonts/SAOUI-Regular.otf');
+  }
+  
+  @font-face {
+    font-family: saouiwelcome-regular;
+    src: url('../fonts/SAOUIWelcome-Regular.otf');
+  }
+  
+  body {
+    font-family: saoui-regular;
+    color: white;
+    background-color: black;
+  }
+
+  h1 {
+    font-family: saouiwelcome-regular;
+    font-size: 70px;
+    letter-spacing: 30px;
+    text-align: center;
+  }
+  
+  p {
+    font-family: saouiwelcome-regular;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Consola {
+    border-radius: 5px;
+    margin-top: 5%;
+    height: 500px;
+    max-height: 800px;
+    width: 783px;
+    background-color: white;
+    color: #4d4d4d;
+  }
+  .Consola input[type="text"] {
+    border: none; /* Elimina el borde del input */
+    outline: none; /* Elimina el contorno de enfoque al hacer clic */
+    background-color: transparent; /* Hace el fondo del input transparente */
+    color: #4d4d4d; /* Establece el color del texto dentro del input */
+    font-family: saoui-regular; /* Aplica la fuente al input */
+    width: calc(100% - 20px); /* Ajusta el ancho del input considerando el espacio interno */
+    margin-bottom: 10px; /* Agrega un margen inferior para separar el input del texto anterior */
+    padding: 5px; /* Ajusta el espacio interno para mejorar el aspecto visual */
+    cursor: text; /* Establece el cursor como la barra intermitente */
+}
+
+  h3 {
+    font-family: saouiwelcome-regular;
+    text-align: center;
+    letter-spacing: 10px;
+    color: #4d4d4d;
+  }
